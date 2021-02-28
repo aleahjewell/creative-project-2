@@ -102,6 +102,11 @@ a, a:hover {
     .vertical-container {
         margin: 0;
     }
+
+    .recipe-img {
+        width: 100%;
+        margin-bottom: 16px;
+    }
 }
 
 .top-margin {
