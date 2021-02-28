@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18pt;
+}
+
+body {
+  background-color: linen;
+  color: black;
+}
+
+.page-wrap {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
+  margin: 32px;
+  margin-bottom: 0;
+}
+
+.navbar-dark .navbar-brand {
+    color: coral;
+    font-family: 'Marck Script', cursive;
+    margin-left: 12px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.grid-item {
+    padding: 8px;
+}
+
+.grid-item:hover {
+    opacity: 80%;
+}
+
+img {
+    width: 100%;
+}
+
+.recipe-img {
+    width: 50%;
+    max-width: 600px;
+    height: fit-content;
+}
+
+.category {
+    font-size: small;
+    font-weight: bold;
+    margin: 8px 0;
+    color: tomato;
+}
+
+.outline {
+    color: coral;
+    background-color: transparent;
+    background-image: none;
+    border-color: coral;
+}
+
+a, a:hover {
+  color: coral;
+}
+
+.youtube-link, .youtube-link:hover {
+    color: black;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 2.5rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    
+.horizontal-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 32px;
+}
+
+@media only screen and (max-width: 400px) {
+    .horizontal-container {
+        flex-direction: column;
+    }
+
+    .vertical-container {
+        margin: 0;
+    }
+}
+
+.top-margin {
+    margin-top: 16px;
+}
